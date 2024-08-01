@@ -1228,6 +1228,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1177656779541376716, guid: 2d8c945ed39718148bb60ed85563190c, type: 3}
   m_PrefabInstance: {fileID: 136452180}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &178362040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 178362041}
+  m_Layer: 0
+  m_Name: Tables
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &178362041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178362040}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.6651363, y: 0, z: -1.319967}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 358343978}
+  - {fileID: 597378046}
+  - {fileID: 740020532}
+  - {fileID: 1580437424}
+  - {fileID: 1951074147}
+  m_Father: {fileID: 435585921}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &195657240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1417,6 +1453,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7372471363592420540, guid: a61f779380e8e2e4e92e5234e172e61c, type: 3}
   m_PrefabInstance: {fileID: 225879582}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &241801904
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 412474468}
+    m_Modifications:
+    - target: {fileID: 1833663515793174, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_Name
+      value: Summer Open-Air Chair Plastic (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.778732
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.768056
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.34429
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.95787627
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.028936198
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.28550997
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.010950141
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 3.537
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 33.187
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.256
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+--- !u!4 &241801905 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+  m_PrefabInstance: {fileID: 241801904}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &249541178
 PrefabInstance:
@@ -1938,6 +2036,130 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6908656363998969129, guid: 0dd050efb10a21c4f8d1c3ab7e33f70b, type: 3}
   m_PrefabInstance: {fileID: 350911756}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &352480045
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 597378046}
+    m_Modifications:
+    - target: {fileID: 1157735723851694, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_Name
+      value: Summer Open-Air Table Round Plastic (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.283836
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.808239
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.498272
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.3702878
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.027347403
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9284504
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.010906786
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -2.321
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -136.563
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.45
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+--- !u!4 &352480046 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+  m_PrefabInstance: {fileID: 352480045}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &354497513
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 412474468}
+    m_Modifications:
+    - target: {fileID: 1157735723851694, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_Name
+      value: Summer Open-Air Table Round Plastic (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.283836
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.808239
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.498272
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.3702878
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.027347403
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9284504
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.010906786
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -2.321
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -136.563
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.45
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+--- !u!4 &354497514 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+  m_PrefabInstance: {fileID: 354497513}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &356428225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2000,6 +2222,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4563372550702056529, guid: b0abe2cf3d0874541a042aeb54738371, type: 3}
   m_PrefabInstance: {fileID: 356428225}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &358343977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 358343978}
+  m_Layer: 0
+  m_Name: Table 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &358343978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358343977}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1001231708}
+  - {fileID: 681315192}
+  - {fileID: 776029842}
+  m_Father: {fileID: 178362041}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &364869435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2338,6 +2594,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7485619146387964101, guid: a7d1dd9522bb084498975fd966bbcb09, type: 3}
   m_PrefabInstance: {fileID: 380144559}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &412474467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 412474468}
+  m_Layer: 0
+  m_Name: Table 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &412474468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412474467}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 241801905}
+  - {fileID: 1171783653}
+  - {fileID: 354497514}
+  m_Father: {fileID: 1951074147}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &426749174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2430,7 +2720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 435585921}
   m_Layer: 0
-  m_Name: "Tables (De\u011Fi\u015Fecek)"
+  m_Name: Tables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2449,8 +2739,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 740020532}
-  - {fileID: 1580437424}
+  - {fileID: 178362041}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &449346251
@@ -3178,6 +3467,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7557624842054260415, guid: ee62f561f82725a459aaa2a0ef0e5a3e, type: 3}
   m_PrefabInstance: {fileID: 531608631}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &532120968
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 597378046}
+    m_Modifications:
+    - target: {fileID: 1833663515793174, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_Name
+      value: Summer Open-Air Chair Plastic (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.778732
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.768056
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.34429
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.95787627
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.028936198
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.28550997
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.010950141
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 3.537
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 33.187
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.256
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+--- !u!4 &532120969 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+  m_PrefabInstance: {fileID: 532120968}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &534705876
 GameObject:
   m_ObjectHideFlags: 0
@@ -3673,6 +4024,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7485619146387964101, guid: a7d1dd9522bb084498975fd966bbcb09, type: 3}
   m_PrefabInstance: {fileID: 590885202}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &597378045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 597378046}
+  m_Layer: 0
+  m_Name: Table 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &597378046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597378045}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 532120969}
+  - {fileID: 1139411207}
+  - {fileID: 352480046}
+  m_Father: {fileID: 178362041}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &597926023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4457,6 +4842,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6908656363998969129, guid: 0dd050efb10a21c4f8d1c3ab7e33f70b, type: 3}
   m_PrefabInstance: {fileID: 670516460}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &681315191
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 358343978}
+    m_Modifications:
+    - target: {fileID: 1833663515793174, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_Name
+      value: Summer Open-Air Chair Plastic
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30.192432
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.793076
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.55035
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9238796
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.38268322
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+--- !u!4 &681315192 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+  m_PrefabInstance: {fileID: 681315191}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &694008513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4851,7 +5298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 740020532}
   m_Layer: 0
-  m_Name: Table 1
+  m_Name: Table 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4866,14 +5313,14 @@ Transform:
   m_GameObject: {fileID: 740020531}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -7.6651363, y: 0, z: 1.319967}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2090098153}
   - {fileID: 943196581}
   - {fileID: 1368682433}
-  m_Father: {fileID: 435585921}
+  m_Father: {fileID: 178362041}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &751921478
 PrefabInstance:
@@ -5039,6 +5486,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1015848981385885390, guid: 2fb59737d6e4b1c489e14796b487c46d, type: 3}
   m_PrefabInstance: {fileID: 761839414}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &766387686
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1011115055}
+    m_Modifications:
+    - target: {fileID: 1833663515793174, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_Name
+      value: Summer Open-Air Chair Plastic
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30.192432
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.793076
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.55035
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9238796
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.38268322
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+--- !u!4 &766387687 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+  m_PrefabInstance: {fileID: 766387686}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &767120840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5100,6 +5609,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5731077476133941631, guid: 46e654c102087004988f6462e5ae7133, type: 3}
   m_PrefabInstance: {fileID: 767120840}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &776029841
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 358343978}
+    m_Modifications:
+    - target: {fileID: 1833663515793174, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_Name
+      value: Summer Open-Air Chair Plastic (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.051384
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.796454
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 16.9847
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.29886222
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.01698407
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.95391965
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.020743655
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 1.686
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 214.829
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.569
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+--- !u!4 &776029842 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+  m_PrefabInstance: {fileID: 776029841}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &777023644
 PrefabInstance:
@@ -5692,6 +6263,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1015848981385885390, guid: 2fb59737d6e4b1c489e14796b487c46d, type: 3}
   m_PrefabInstance: {fileID: 823466520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &831317573
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1011115055}
+    m_Modifications:
+    - target: {fileID: 1833663515793174, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_Name
+      value: Summer Open-Air Chair Plastic (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.051384
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.796454
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 16.9847
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.29886222
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.01698407
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.95391965
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.020743655
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 1.686
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 214.829
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.569
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+--- !u!4 &831317574 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+  m_PrefabInstance: {fileID: 831317573}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &832699814
 PrefabInstance:
@@ -6717,6 +7350,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7372471363592420540, guid: a61f779380e8e2e4e92e5234e172e61c, type: 3}
   m_PrefabInstance: {fileID: 1000007366}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1001231707
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 358343978}
+    m_Modifications:
+    - target: {fileID: 1157735723851694, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_Name
+      value: Summer Open-Air Table Round Plastic
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.569963
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.807439
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.817312
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9238796
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.38268322
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+--- !u!4 &1001231708 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+  m_PrefabInstance: {fileID: 1001231707}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1006187020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6795,6 +7490,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6072337444827864894, guid: 6c4007604bc022f448fc1c1580e16882, type: 3}
   m_PrefabInstance: {fileID: 1006187020}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1011115054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1011115055}
+  m_Layer: 0
+  m_Name: Table 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1011115055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011115054}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1467795305}
+  - {fileID: 766387687}
+  - {fileID: 831317574}
+  m_Father: {fileID: 1951074147}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1013764064
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7504,6 +8233,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7485619146387964101, guid: a7d1dd9522bb084498975fd966bbcb09, type: 3}
   m_PrefabInstance: {fileID: 1134944941}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1139411206
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 597378046}
+    m_Modifications:
+    - target: {fileID: 1833663515793174, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_Name
+      value: Summer Open-Air Chair Plastic (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 25.681145
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.829386
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.749023
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.3702878
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.027347403
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9284504
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.010906786
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -2.321
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -136.563
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.45
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+--- !u!4 &1139411207 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+  m_PrefabInstance: {fileID: 1139411206}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1147432800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7794,6 +8585,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3627923716577963945, guid: 305607abdee0b2246ad1fe5ccbbe700d, type: 3}
   m_PrefabInstance: {fileID: 1171689578}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1171783652
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 412474468}
+    m_Modifications:
+    - target: {fileID: 1833663515793174, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_Name
+      value: Summer Open-Air Chair Plastic (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 25.681145
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.829386
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.749023
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.3702878
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.027347403
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9284504
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.010906786
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -2.321
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -136.563
+      objectReference: {fileID: 0}
+    - target: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.45
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+--- !u!4 &1171783653 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4899508235444726, guid: a99b124aefd15f64e89ef63b6b1f4827, type: 3}
+  m_PrefabInstance: {fileID: 1171783652}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1182585267
 PrefabInstance:
@@ -10022,6 +10875,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8376913153477787964, guid: 772619802dded0140a801dd015e2acf7, type: 3}
   m_PrefabInstance: {fileID: 1453770836}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1467795304
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1011115055}
+    m_Modifications:
+    - target: {fileID: 1157735723851694, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_Name
+      value: Summer Open-Air Table Round Plastic
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.569963
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.807439
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.817312
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9238796
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.38268322
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+--- !u!4 &1467795305 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4074804632322136, guid: aae5a96c395ace447af3e34010ab47e5, type: 3}
+  m_PrefabInstance: {fileID: 1467795304}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1481341383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10556,7 +11471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1580437424}
   m_Layer: 0
-  m_Name: Table 2
+  m_Name: Table 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10571,14 +11486,14 @@ Transform:
   m_GameObject: {fileID: 1580437423}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -7.6651363, y: 0, z: 1.319967}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 92165781}
   - {fileID: 1504951153}
   - {fileID: 994726400}
-  m_Father: {fileID: 435585921}
+  m_Father: {fileID: 178362041}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1593420017
 PrefabInstance:
@@ -12250,6 +13165,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5731077476133941631, guid: 46e654c102087004988f6462e5ae7133, type: 3}
   m_PrefabInstance: {fileID: 1917242217}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1951074146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1951074147}
+  m_Layer: 0
+  m_Name: Table 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1951074147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951074146}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.8899994, y: -0.048986435, z: 5.6499996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1011115055}
+  - {fileID: 412474468}
+  m_Father: {fileID: 178362041}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1960111944
 PrefabInstance:
   m_ObjectHideFlags: 0
